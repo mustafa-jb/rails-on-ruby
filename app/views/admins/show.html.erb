@@ -1,0 +1,30 @@
+<div class="container">
+<h1>Admins Show</h1>
+<p id='notice'><%= notice%></p>
+<p>
+<strong>
+Firstname
+</strong>
+<%=@admin.firstname%>
+</p>
+<p>
+<strong>
+Lastname
+</strong>
+<%=@admin.lastname%>
+</p>
+<p>
+<strong>
+Age
+</strong>
+<%=@admin.age%>
+</p>
+<p>
+<strong>
+Person_dob
+</strong>
+<%=@admin.person_dob%>
+</p>
+<%= link_to 'Edit', edit_admin_path(@admin) %> |
+<%= link_to'Back',admins_path %>
+</div>
